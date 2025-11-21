@@ -64,7 +64,7 @@ export function About() {
                 <Eye className="h-7 w-7" />
               </div>
               <h3 className="text-2xl mb-4">Vision</h3>
-              <p>Making modern quality healthcare services accessible and affordable to underserved communities in Gambia and beyond by leveraging technology.</p>
+              <p>Making modern quality home healthcare services accessible and affordable to underserved communities in Gambia and beyond by leveraging technology.</p>
             </div>
 
             <div className="bg-gradient-to-br from-rose-700 to-red-800 p-8 rounded-2xl text-white">
@@ -72,7 +72,7 @@ export function About() {
                 <Target className="h-7 w-7" />
               </div>
               <h3 className="text-2xl mb-4">Mission</h3>
-              <p>To provide access to affordable high quality of healthcare services in The Gambia and beyond, supporting clients to cope, adapt, and recover from stressful health events.</p>
+              <p>To provide access to affordable high quality of home healthcare services in The Gambia and beyond, supporting clients to cope, adapt, and recover from stressful health events.</p>
             </div>
 
             <div className="bg-gradient-to-br from-red-800 to-rose-900 p-8 rounded-2xl text-white">
