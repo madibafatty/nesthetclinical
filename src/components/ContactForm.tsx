@@ -128,7 +128,7 @@ export function ContactForm() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="Enter your full name"
+                      placeholder="Enter your full name "
                       className="border-gray-300 focus:border-red-600 focus:ring-red-600"
                     />
                   </div>
