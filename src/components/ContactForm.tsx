@@ -30,21 +30,25 @@ export function ContactForm() {
     const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
     const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
     const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+    const RECIPIENT = import.meta.env.VITE_CONTACT_RECIPIENT ?? "email.teamkonteh@gmail.com";
 
     const templateParams = {
       ...formData,
-      to_email: "teamkonteh@gmail.com"
+      to_email: RECIPIENT
     } as Record<string, any>;
 
     if (SERVICE_ID && TEMPLATE_ID && PUBLIC_KEY) {
       try {
         const emailjs = await import("@emailjs/browser");
-        await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY);
+        const sendResult = await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY);
+        console.info("EmailJS send result:", sendResult);
         setIsSubmitted(true);
         setResultMessage("Your request was sent successfully.");
-      } catch (err) {
+      } catch (err: any) {
         console.error("EmailJS error:", err);
-        setResultMessage("There was a problem sending your request. Please try again later.");
+        // Try to show a useful message
+        const message = err?.text || err?.message || String(err);
+        setResultMessage(`There was a problem sending your request: ${message}`);
       }
     } else {
       // Fallback: no EmailJS configured — log data and show instructive message
