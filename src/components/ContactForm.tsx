@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Label } from "./ui/label";
+import axios from "axios";
 import { Calendar, Clock, User, Mail, Phone, MessageSquare } from "lucide-react";
 
 export function ContactForm() {
@@ -39,16 +40,32 @@ export function ContactForm() {
 
     if (SERVICE_ID && TEMPLATE_ID && PUBLIC_KEY) {
       try {
-        const emailjs = await import("@emailjs/browser");
-        const sendResult = await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY);
-        console.info("EmailJS send result:", sendResult);
-        setIsSubmitted(true);
-        setResultMessage("Your request was sent successfully.");
+        // Use EmailJS REST API: https://api.emailjs.com/api/v1.0/email/send
+        // Build payload expected by EmailJS
+        const payload = {
+          service_id: SERVICE_ID,
+          template_id: TEMPLATE_ID,
+          user_id: PUBLIC_KEY,
+          template_params: templateParams
+        } as Record<string, any>;
+
+        const resp = await axios.post(
+          "https://api.emailjs.com/api/v1.0/email/send",
+          payload,
+          { headers: { "Content-Type": "application/json" } }
+        );
+
+        console.info("EmailJS response status:", resp.status, resp.data);
+        if (resp.status === 200) {
+          setIsSubmitted(true);
+          setResultMessage("Your request was sent successfully.");
+        } else {
+          setResultMessage(`Unexpected EmailJS response: ${resp.status}`);
+        }
       } catch (err: any) {
-        console.error("EmailJS error:", err);
-        // Try to show a useful message
-        const message = err?.text || err?.message || String(err);
-        setResultMessage(`There was a problem sending your request: ${message}`);
+        console.error("EmailJS error (axios):", err);
+        const message = err?.response?.data || err?.message || String(err);
+        setResultMessage(`There was a problem sending your request: ${JSON.stringify(message)}`);
       }
     } else {
       // Fallback: no EmailJS configured — log data and show instructive message
