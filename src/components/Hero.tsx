@@ -7,18 +7,22 @@ export function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
-    {
-      image: "https://images.unsplash.com/photo-1758691462321-9b6c98c40f7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcHJvZmVzc2lvbmFsJTIwcGF0aWVudCUyMGhvbWV8ZW58MXx8fHwxNzYzNzE1MzI1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      alt: "Home Healthcare Services"
-    },
-    {
-      image: "https://images.unsplash.com/photo-1676552055618-22ec8cde399a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxudXJzZSUyMGNhcmluZyUyMGVsZGVybHl8ZW58MXx8fHwxNzYzNjQyMzg0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      alt: "Nurse Caring for Elderly"
-    },
-    {
-      image: "https://images.unsplash.com/photo-1536064479547-7ee40b74b807?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwY29uc3VsdGF0aW9uJTIwYWZyaWNhfGVufDF8fHx8MTc2MzcxNTMyNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      alt: "Medical Consultation"
-    }
+   {
+    image: "/images/measure.jpg",
+    alt: "Healthcare professional providing home care"
+  },
+  {
+    image: "/images/awa.jpg",
+    alt: "Doctor patient consultation"
+  },
+  {
+    image: "/images/apple.jpg",
+    alt: "Nurse providing elderly care"
+  },
+  {
+    image: "/images/eye.jpg",
+    alt: "Medical checkup healthcare"
+  }
   ];
 
   const scrollToSection = (id: string) => {
@@ -56,7 +60,7 @@ export function Hero() {
             </h1>
             
             <p className="text-xl text-gray-600">
-              Making modern quality healthcare services accessible and affordable to underserved communities in The Gambia and beyond by leveraging technology.
+              Making modern quality home healthcare services accessible and affordable to underserved communities in The Gambia and beyond by leveraging technology.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

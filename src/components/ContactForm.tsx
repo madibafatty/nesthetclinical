@@ -164,7 +164,7 @@ export function ContactForm() {
                       required
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+220 XXX XXXX"
+                      placeholder="+220 3344551"
                       className="border-gray-300 focus:border-red-600 focus:ring-red-600"
                     />
                   </div>

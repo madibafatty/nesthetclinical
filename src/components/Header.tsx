@@ -18,13 +18,26 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="bg-red-600 p-2 rounded-lg">
+            {/* <div className="bg-red-600 p-2 rounded-lg">
               <Heart className="h-6 w-6 text-white fill-white" />
-            </div>
-            <div>
+            </div> */}
+            {/* <div>
               <div className="text-gray-900">Nesthet Clinical Services</div>
               <div className="text-xs text-gray-600">Est. 2015</div>
-            </div>
+            </div> */}
+
+             <div className="flex items-center">
+            <button onClick={() => scrollToSection("hero")} className="flex items-center space-x-2">
+              <img
+                src="/images/logo.jpeg"
+                alt="Nesthet Clinical Logo"
+                style={{ width: 110, height: 40, borderRadius: 8, boxShadow: '0 2px 8px rgba(0,0,0,0.08)' }}
+              />
+              {/* <span className="text-gray-900">Nesthet Clinical</span> */}
+            </button>
+          </div>
+
+
           </div>
 
           {/* Desktop Navigation */}
