@@ -11,7 +11,7 @@ export function About() {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <ImageWithFallback 
-                  src="/images/boy.jpg"
+                  src="/images/mariama.jpg"
                   alt="Healthcare Professional"
                   className="w-full h-[600px] object-cover"
                 />

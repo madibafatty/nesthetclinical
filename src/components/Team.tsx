@@ -4,28 +4,28 @@ import { Linkedin, Mail } from "lucide-react";
 export function Team() {
   const teamMembers = [
     {
-      name: "Dr. Amina Jallow",
-      role: "Founder & Chief Medical Officer",
-      image: "https://images.unsplash.com/photo-1632054229795-4097870879b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwaGVhbHRoY2FyZSUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NjM3MTQ3MjR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      bio: "With over 10 years of experience in community healthcare, Dr. Jallow founded Nesthet to bring quality care to underserved communities."
+      name: "Dr. Lamin Jafuneh",
+      role: "Co-Founder & Chief Medical Officer",
+      image: "images/jafuneh.jpg",
+      // bio: "With over 10 years of experience in community healthcare, Dr. Jallow founded Nesthet to bring quality care to underserved communities."
     },
     {
-      name: "Fatou Ceesay",
-      role: "Director of Nursing Services",
-      image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop",
-      bio: "Leading our nursing team with expertise in home healthcare and chronic disease management."
+      name: "Olimatou Bojang",
+      role: "Co founder and Executive Manager",
+      image: "images/bojang.jpg",
+      // bio: "Leading our nursing team with expertise in home healthcare and chronic disease management."
     },
     {
-      name: "Lamin Sarr",
+      name: "Dr. Baboucarr Dibba",
       role: "Operations Manager",
-      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop",
-      bio: "Ensuring seamless service delivery and operational excellence across all our healthcare programs."
+      image: "images/dibba.jpeg",
+      // bio: "Ensuring seamless service delivery and operational excellence across all our healthcare programs."
     },
     {
-      name: "Isatou Manneh",
+      name: "Kaddijatou Manneh",
       role: "Head of Elderly Care",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
-      bio: "Specializing in geriatric care with a compassionate approach to supporting our elderly clients."
+      image: "images/mariam.jpg",
+      // bio: "Specializing in geriatric care with a compassionate approach to supporting our elderly clients."
     }
   ];
 
@@ -56,7 +56,7 @@ export function Team() {
               <div className="p-6">
                 <h3 className="text-xl text-gray-900 mb-1">{member.name}</h3>
                 <p className="text-red-600 mb-3">{member.role}</p>
-                <p className="text-gray-600 text-sm mb-4">{member.bio}</p>
+                {/* <p className="text-gray-600 text-sm mb-4">{member.bio}</p> */}
                 <div className="flex gap-3">
                   <button className="p-2 bg-red-50 hover:bg-red-100 rounded-lg transition-colors">
                     <Linkedin className="h-4 w-4 text-red-600" />

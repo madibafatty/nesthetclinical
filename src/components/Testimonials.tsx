@@ -3,41 +3,41 @@ import { Star, Quote } from "lucide-react";
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Aisha Kamara",
+      name: "Ya Fatou Aziz",
       role: "Patient - Chronic Disease Management",
-      content: "Nesthet Clinical Services has been a blessing for my diabetes management. The nurses visit me regularly at home, making it so much easier to maintain my health. I no longer have to worry about transportation to the clinic.",
+      content: "Nesthet provided exceptional 24/7 home care for my 99-year-old grandfather. Their team was compassionate, reliable, and highly skilled. The care was personalized to his needs, and the staff displayed consistent professionalism. We are deeply grateful for the comfort and support they provided.",
       rating: 5
     },
     {
-      name: "Bakary Jatta",
+      name: "Haddy Sonko",
       role: "Family Member - Elderly Care",
-      content: "My mother receives wonderful care from the Nesthet team. They treat her with such dignity and compassion. It gives our family peace of mind knowing she's in good hands, even when we can't be there.",
+      content: "I am truly grateful for the excellent service and continuous support your team has provided for both my parents. Your care, professionalism, and dedication mean so much to us. Thank you for everything.",
       rating: 5
     },
     {
-      name: "Mariama Sowe",
-      role: "Parent - Disease Prevention Program",
-      content: "The disease prevention program for children has been excellent. The dietary advice and regular checkups have really helped my children develop healthy habits. The team is professional and caring.",
+      name: "Abdoulie Ceesay",
+      role: "Client -Bronx, USA",
+      content: "My experience with your home nursing services for my mom has been outstanding. Your team provided compassionate, patient, and reliable care that brought tremendous comfort to our entire family. The nurses treated my mom with dignity and kindness, and their professionalism gave us peace of mind every single day. It truly felt like she was in safe, caring hands.",
       rating: 5
     },
-    {
-      name: "Gambia Chamber of Commerce",
-      role: "Corporate Partner",
-      content: "We've partnered with Nesthet for our corporate healthcare package. The convenience of on-site health screenings and the quality of care has significantly improved our employee wellness program. Highly recommended!",
-      rating: 5
-    },
-    {
-      name: "Omar Ceesay",
-      role: "Patient - Wound Care",
-      content: "After my surgery, Nesthet provided exceptional wound care at home. The specialist attention I received helped me recover faster and without complications. Their service is truly professional.",
-      rating: 5
-    },
-    {
-      name: "Ministry of Health Partnership",
-      role: "Government Partner",
-      content: "Nesthet Clinical Services has been instrumental in extending healthcare access to remote communities. Their commitment to affordability and quality aligns perfectly with our national health goals.",
-      rating: 5
-    }
+    // {
+    //   name: "Gambia Chamber of Commerce",
+    //   role: "Corporate Partner",
+    //   content: "We've partnered with Nesthet for our corporate healthcare package. The convenience of on-site health screenings and the quality of care has significantly improved our employee wellness program. Highly recommended!",
+    //   rating: 5
+    // },
+    // {
+    //   name: "Omar Ceesay",
+    //   role: "Patient - Wound Care",
+    //   content: "After my surgery, Nesthet provided exceptional wound care at home. The specialist attention I received helped me recover faster and without complications. Their service is truly professional.",
+    //   rating: 5
+    // },
+    // {
+    //   name: "Ministry of Health Partnership",
+    //   role: "Government Partner",
+    //   content: "Nesthet Clinical Services has been instrumental in extending healthcare access to remote communities. Their commitment to affordability and quality aligns perfectly with our national health goals.",
+    //   rating: 5
+    // }
   ];
 
   return (
