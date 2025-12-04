@@ -5,7 +5,7 @@ export function Team() {
   const teamMembers = [
     {
       name: "Dr. Lamin Jafuneh",
-      role: "Co-Founder & Chief Medical Officer",
+      role: "Co-Founder & Chief Executive officer",
       image: "images/jafuneh.jpg",
       // bio: "With over 10 years of experience in community healthcare, Dr. Jallow founded Nesthet to bring quality care to underserved communities."
     },
@@ -22,11 +22,25 @@ export function Team() {
       // bio: "Ensuring seamless service delivery and operational excellence across all our healthcare programs."
     },
     {
+      name: "Dr. Awa Jah",
+      role: "Head of clinical services",
+      image: "images/awa.jpeg",
+      // bio: "Ensuring seamless service delivery and operational excellence across all our healthcare programs."
+    },
+    {
       name: "Kaddijatou Manneh",
-      role: "Head of Elderly Care",
+      role: "Field Supervisor",
       image: "images/mariam.jpg",
       // bio: "Specializing in geriatric care with a compassionate approach to supporting our elderly clients."
-    }
+    },
+    {
+      name: "Kanni Njie",
+      role: "Supervisor",
+      image: "images/kanni.jpeg",
+      // bio: "Ensuring seamless service delivery and operational excellence across all our healthcare programs."
+    },
+    
+   
   ];
 
   return (

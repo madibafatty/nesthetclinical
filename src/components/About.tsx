@@ -30,10 +30,12 @@ export function About() {
               
               <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  Nesthet Clinical Services was inspired by my three years of witnessing preventable suffering at Bansang Hospital. I witnessed pregnant women, children, and the elderly suffering from avoidable healthcare challenges, often resulting in tragic outcomes.
+                  Born from Compassion <br />
+Nesthet Clinical Services was inspired by three years of Witnessing preventable suffering in the rural Gambia. Seeing women, children and elderly enduring huge challenges to access basic essential healthcare services, often resulting in tragic outcomes
                 </p>
                 <p>
-                  In 2014, after witnessing the first maternal death at Farato Health Post, I decided to act. This entrepreneurial drive gave birth to Nesthet Clinical Services, a mission-driven initiative to bring healthcare to the doorstep of those who need it most.
+                  Driven by Purpose <br />
+The call to action came after hearing about the first maternal death at Farato Health Post in 2014. This entrepreneurial drive gave birth to Nesthet. A personalized in-home care provider to make home healthcare accessible, personalized and stress free
                 </p>
                 <p>
                   Today, we continue to serve our community with unwavering dedication, ensuring that quality healthcare is accessible to everyone, regardless of their location or circumstances.

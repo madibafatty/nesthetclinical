@@ -9,49 +9,49 @@ export function Services() {
       title: "Disease Prevention",
       description: "Focus on preventing chronic diseases through dietary advice, regular checkups, and healthy living habits.",
       target: "Parents providing children ages 5-17",
-      image: "https://images.unsplash.com/photo-1576765608622-067973a79f53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaXNlYXNlJTIwcHJldmVudGlvbiUyMGNoaWxkcmVuJTIwaGVhbHRofGVufDF8fHx8MTc2MzcxNDcyMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "images/test.jpeg"
     },
     {
       icon: Building2,
       title: "Corporate Package",
       description: "Healthcare for organizations to provide their staff, through care in the event of illness, early diagnosis by optional regular health checks and screening, and prevention.",
       target: "Employers providing for their staff",
-      image: "https://images.unsplash.com/photo-1666679314791-1137bb733779?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBoZWFsdGhjYXJlJTIwb2ZmaWNlfGVufDF8fHx8MTc2MzY3NzM2N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "images/consultancy.jpeg"
     },
     {
       icon: Bandage,
       title: "Wound Care",
       description: "Specialist wound care including burns, cavity wounds and clean surgical wounds with expert medical attention.",
       target: "All ages requiring wound care",
-      image: "https://images.unsplash.com/photo-1659019479941-1fd644624339?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b3VuZCUyMGNhcmUlMjBtZWRpY2FsfGVufDF8fHx8MTc2MzcxNDcyMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "images/wound.jpeg"
     },
     {
       icon: Activity,
       title: "Chronic Disease Management",
       description: "Provide coordinated care for chronic illnesses, including hypertension, sickle cell and diabetes, through lifestyle and medication management.",
       target: "Patients with chronic diseases",
-      image: "https://images.unsplash.com/photo-1763142842671-573188baaabd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHJvbmljJTIwZGlzZWFzZSUyMG1hbmFnZW1lbnR8ZW58MXx8fHwxNzYzNzE0NzIzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "images/string.jpeg"
     },
     {
       icon: HeartPulse,
       title: "Elderly Care",
       description: "Support elderly individuals with or without chronic illnesses in performing daily activities with 6 to 24-hour care options.",
       target: "Ages 50 upwards",
-      image: "https://images.unsplash.com/photo-1676281050264-178eff38874a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGRlcmx5JTIwY2FyZSUyMGhvbWV8ZW58MXx8fHwxNzYzNzE0NzIzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "images/merr1.jpg"
     },
     {
       icon: Pill,
       title: "Palliative and Hospice Care",
       description: "Provide compassionate care for patients with terminal illnesses, focusing on pain management, quality of life and maintaining dignity.",
       target: "Terminally ill patients",
-      image: "https://images.unsplash.com/photo-1685657814797-83706c4e5279?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYWxsaWF0aXZlJTIwaG9zcGljZSUyMGNhcmV8ZW58MXx8fHwxNzYzNzE0NzIzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "images/bed.jpeg"
     },
     {
       icon: Stethoscope,
       title: "Ad Hoc Services",
       description: "Additional services to complement our core offerings: physiotherapy, IV therapy, medical checkups, surgery facilitation, and medication delivery.",
       target: "All ages as needed",
-      image: "https://images.unsplash.com/photo-1758887248912-03a0c34a2f41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwc2VydmljZXMlMjB0aGVyYXB5fGVufDF8fHx8MTc2MzcxNDcyNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "images/patient1.jpeg"
     }
   ];
 

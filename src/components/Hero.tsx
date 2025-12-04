@@ -20,9 +20,18 @@ export function Hero() {
     alt: "Nurse providing elderly care"
   },
   {
-    image: "/images/eye.jpg",
-    alt: "Medical checkup healthcare"
-  }
+    image: "/images/machine.jpeg",
+    alt: "Nurse providing elderly care"
+  },
+  {
+    image: "/images/jafuneh1.jpeg",
+    alt: "Nurse providing elderly care"
+  },
+  {
+    image: "/images/apple.jpg",
+    alt: "Nurse providing elderly care"
+  },
+ 
   ];
 
   const scrollToSection = (id: string) => {
@@ -56,11 +65,11 @@ export function Hero() {
             </div>
             
             <h1 className="text-5xl md:text-6xl text-gray-900">
-              Quality Home Healthcare at Your Doorstep
+              Quality healthcare at your doorstep
             </h1>
             
             <p className="text-xl text-gray-600">
-              Making modern quality home healthcare services accessible and affordable to underserved communities in The Gambia and beyond by leveraging technology.
+              Nesthet delivers innovative and personalized home healthcare solutions in The Gambia targeting the underserved communities and the Gambian diaspora
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

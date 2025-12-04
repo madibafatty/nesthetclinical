@@ -110,7 +110,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-red-300 mt-1 flex-shrink-0" />
-                <span className="text-red-100">Banjul, The Gambia</span>
+                <span className="text-red-100">Basadi Plaza, Behind the Gambia Red Cross Headquarters, Kanifing South, KMC, The Gambia</span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-red-300 mt-1 flex-shrink-0" />
