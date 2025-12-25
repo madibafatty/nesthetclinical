@@ -18,6 +18,7 @@ export function Footer() {
       
               />
                <div className="text-xs text-red-200">Est. 2015</div>
+               
             {/* <div className="flex items-center gap-2 mb-6">
               <div className="bg-white p-2 rounded-lg">
                 <Heart className="h-6 w-6 text-red-600 fill-red-600" />

@@ -82,7 +82,7 @@ The call to action came after hearing about the first maternal death at Farato H
                 <Lightbulb className="h-7 w-7" />
               </div>
               <h3 className="text-2xl mb-4">Goal</h3>
-              <p>Our target is to ensure that 90% of the population can access high quality healthcare at home, at costs affordable to 80% of Gambians by 2028, anytime and anywhere.</p>
+              <p>Our target is to ensure that 90% of the population can access high quality healthcare at home, at a costs affordable to 80% of Gambians by 2028, anytime and anywhere.</p>
             </div>
           </div>
 
@@ -123,7 +123,7 @@ The call to action came after hearing about the first maternal death at Farato H
                   <Lock className="h-6 w-6 text-red-600" />
                 </div>
                 <h3 className="text-xl text-gray-900 mb-2">Privacy & Peace of Mind</h3>
-                <p className="text-gray-600">Delivering services in the comfort of home with high-quality care you can trust.</p>
+                <p className="text-gray-600">Delivering services at the comfort of client's home with high-quality care you can trust.</p>
               </div>
             </div>
           </div>

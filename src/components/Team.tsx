@@ -4,29 +4,37 @@ import { Linkedin, Mail } from "lucide-react";
 export function Team() {
   const teamMembers = [
     {
-      name: "Dr. Lamin Jafuneh",
+      name: "Mr. Lamin Jafuneh",
       role: "Co-Founder & Chief Executive officer",
-      image: "images/jafuneh.jpg",
+      image: "images/jafuneh1.png",
       // bio: "With over 10 years of experience in community healthcare, Dr. Jallow founded Nesthet to bring quality care to underserved communities."
     },
     {
       name: "Olimatou Bojang",
-      role: "Co founder and Executive Manager",
+      role: "Co-Founder and Executive Manager",
       image: "images/bojang.jpg",
       // bio: "Leading our nursing team with expertise in home healthcare and chronic disease management."
     },
     {
       name: "Dr. Baboucarr Dibba",
-      role: "Operations Manager",
+      role: "Data Scientist",
       image: "images/dibba.jpeg",
       // bio: "Ensuring seamless service delivery and operational excellence across all our healthcare programs."
     },
     {
       name: "Dr. Awa Jah",
-      role: "Head of clinical services",
-      image: "images/awa.jpeg",
+      role: "Head of Clinical Services",
+      image: "images/awa.jpg",
       // bio: "Ensuring seamless service delivery and operational excellence across all our healthcare programs."
     },
+
+     {
+      name: "Dr. Richel Rodriguez",
+      role: "Field Doctor",
+      image: "images/richal.jpeg",
+      // bio: "Ensuring seamless service delivery and operational excellence across all our healthcare programs."
+    },
+    
     {
       name: "Kaddijatou Manneh",
       role: "Field Supervisor",
@@ -35,10 +43,11 @@ export function Team() {
     },
     {
       name: "Kanni Njie",
-      role: "Supervisor",
-      image: "images/kanni.jpeg",
+      role: "Field Supervisor",
+      image: "images/kanni.jpg",
       // bio: "Ensuring seamless service delivery and operational excellence across all our healthcare programs."
     },
+   
     
    
   ];
