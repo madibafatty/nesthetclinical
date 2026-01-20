@@ -39,18 +39,28 @@ export function Footer() {
               Making modern quality healthcare services accessible and affordable to underserved communities in The Gambia.
             </p>
             <div className="flex gap-3">
-              <button className="bg-white/10 hover:bg-white/20 p-2 rounded-lg transition-colors">
-                <Facebook className="h-5 w-5" />
+              <a href="https://facebook.com/nesthetclinicalservices">
+              <button   className="bg-white/10 hover:bg-white/20 p-2 rounded-lg transition-colors">
+                <Facebook  className="h-5 w-5" />
               </button>
+               </a>
+
+                <a href=" https://x.com/nesthethomecare">
               <button className="bg-white/10 hover:bg-white/20 p-2 rounded-lg transition-colors">
                 <Twitter className="h-5 w-5" />
               </button>
+              </a>
+                <a href="https://instagram.com/nesthetclinicalservices">  
               <button className="bg-white/10 hover:bg-white/20 p-2 rounded-lg transition-colors">
                 <Instagram className="h-5 w-5" />
               </button>
+              </a>
+
+              <a href="https://linkedin.com/company/nesthet-clinical-services">
               <button className="bg-white/10 hover:bg-white/20 p-2 rounded-lg transition-colors">
                 <Linkedin className="h-5 w-5" />
               </button>
+                </a>
             </div>
           </div>
 
