@@ -11,10 +11,10 @@ export function Hero() {
     image: "/images/measure.jpg",
     alt: "Healthcare professional providing home care"
   },
-  {
-    image: "/images/awa.jpg",
-    alt: "Doctor patient consultation"
-  },
+  // {
+  //   image: "/images/awa.jpg",
+  //   alt: "Doctor patient consultation"
+  // },
   {
     image: "/images/apple.jpg",
     alt: "Nurse providing elderly care"
