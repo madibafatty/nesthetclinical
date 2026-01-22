@@ -132,7 +132,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-red-300 mt-1 flex-shrink-0" />
-                <span className="text-red-100">ncsgambia@gmail.com</span>
+                <span className="text-red-100">managment@nesthetclinicalservices.com</span>
               </li>
             </ul>
           </div>
